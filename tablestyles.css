@@ -1,0 +1,19 @@
+table{border: solid 2pt cyan;}
+
+caption{text-align: center;
+text-transform: uppercase;
+font-weight: bold;}
+
+th{padding: 10pt;
+background-color: wheat;}
+
+
+td{padding: 10pt;
+}
+
+tr:nth-child(even){background-color: yellowgreen;}
+
+tr:nth-child(odd){background-color: sandybrown;}
+
+tr:hover{background-color: steelblue;
+font-weight: bold;}
